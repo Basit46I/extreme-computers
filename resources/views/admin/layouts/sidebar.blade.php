@@ -1,9 +1,9 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-        <img src="{{ url('admin-assets/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
-            class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">EXTREME COMPUTERS</span>
+        <img src="{{ url('front-assets/images/favicon.png') }}" alt="AdminLTE Logo"
+            class="brand-image  elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">Business Network</span>
     </a>
     <!-- Sidebar -->
     <div class="sidebar">

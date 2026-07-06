@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Extreme Computers</title>
+    <title>Business Network</title>
     <meta name="description" content="" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no" />
@@ -56,13 +56,12 @@
 
     {{-- Header Starts --}}
 
-    <div class="bg-light top-header">
+    <div class="bg-white top-header">
         <div class="container">
             <div class="row align-items-center py-3 d-none d-lg-flex justify-content-between">
                 <div class="col-lg-4 logo">
                     <a href="{{ route('front.home') }}" class="text-decoration-none">
-                        <span class="h2 text-uppercase text-primary bg-dark px-2  ">EXTREME</span>
-                        <span class="h2 text-uppercase text-dark bg-primary px-2 ml-n1">COMPUTERs</span>
+                        <img src="{{ asset('front-assets/images/business-network.png') }}" alt="Business Network" class="img-fluid" style="max-width: 75px;max-height: 75px;">
                     </a>
                 </div>
                 <div class="col-lg-6 col-6 text-left  d-flex justify-content-end align-items-center">
@@ -90,8 +89,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-xl" id="navbar">
                 <a href="index.php" class="text-decoration-none mobile-logo">
-                    <span class="h2 text-uppercase text-primary bg-dark">extreme </span>
-                    <span class="h2 text-uppercase text-white px-2">computers</span>
+                    <span class="h2 text-uppercase text-primary bg-dark">business</span>
+                    <span class="h2 text-uppercase text-white px-2">network</span>
                 </a>
                 <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -156,10 +155,10 @@
                     <div class="footer-card">
                         <h3>GOT QUESTIONS? <br> CONTACT US!</h3>
 
-                        <p>+1 (571) 333 2659124 <br>+1 (571) 346 3252722</p>
+                        <p>+92 (336) 8882220 <br>+92 (320) 8369539</p>
                         <p>
-                            extremecomputers@gmail.com<br>
-                            11th Street,Times Square, New York(CA), USA <br>
+                            businessnetwork@gmail.com<br>
+                            Shop No. A2-C, Glamour Mobile & Computer Mall, Main Rashid Minhas Road, Block 10-A, Gulshan-e-Iqbal, Karachi, Pakistan <br>
                         </p>
                     </div>
                 </div>
@@ -201,7 +200,7 @@
                 <div class="row">
                     <div class="col-12 mt-3">
                         <div class="copy-right text-center">
-                            <p>© Copyright 2024 Extreme Computer. All Rights Reserved, Rahim | Basit</p>
+                           <p>© Copyright {{ date('Y') }} Business Network. All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

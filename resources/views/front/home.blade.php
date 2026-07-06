@@ -22,7 +22,7 @@
                             <p class="mx-md-5 px-5">Dive into our vast inventory of computer parts, ranging from powerful
                                 graphics cards to lightning-fast processors, ensuring you can customize your rig to meet
                                 your gaming aspirations</p>
-                            <a class="btn btn-outline-light py-2 px-4 mt-3" href="{{ route('front.shop') }}">Shop Now</a>
+                            <!-- <a class="btn btn-outline-light py-2 px-4 mt-3" href="{{ route('front.shop') }}">Shop Now</a> -->
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                         <div class="p-3">
                             <h1 class="display-4 text-white mb-3">Explore a Universe of Possibilities
                             </h1>
-                            <p class="mx-md-5 px-5">Embark on a journey of endless possibilities at Extreme Computers.
+                            <p class="mx-md-5 px-5">Embark on a journey of endless possibilities at Business Network.
                                 Whether you're a seasoned gamer looking to upgrade your rig or a newcomer seeking advice,
                                 our store is the ultimate destination for all things gaming</p>
                             <a class="btn btn-outline-light py-2 px-4 mt-3" href="{{ route('front.shop') }}">Shop Now</a>

@@ -27,7 +27,7 @@
                         <div class="card-body pb-0">
                             <!-- Info -->
                             <div class="card card-sm">
-                                <div class="card-body bg-light mb-3">
+                                <div class="card-body bg-white mb-3">
                                     <div class="row">
                                         <div class="col-6 col-lg-3">
                                             <!-- Heading -->

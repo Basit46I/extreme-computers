@@ -18,7 +18,7 @@
             <div class="row ">
                 <div class="col-md-5">
                     <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner bg-light">
+                        <div class="carousel-inner bg-white">
                             @if ($product->product_images)
                                 @foreach ($product->product_images as $key => $productImage)
                                     <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
@@ -44,7 +44,7 @@
 
 
                 <div class="col-md-7">
-                    <div class="bg-light right">
+                    <div class="bg-white right">
                         <h1>{{ $product->title }}</h1>
                         <div class="d-flex mb-3">
                             <div class="text-primary mr-2">
@@ -65,8 +65,8 @@
 
                         {!! $product->short_description !!}
 
-                        {{-- <a href="javascript:void(0)" onclick="addToCart({{ $product->id }});" class="btn btn-dark"><i --}}
-                                {{-- class="fas fa-shopping-cart"></i> &nbsp;ADD TO CART</a> --}}
+                        <!-- <a href="javascript:void(0)" onclick="addToCart({{ $product->id }});" class="btn btn-dark"><i
+                                class="fas fa-shopping-cart"></i> &nbsp;ADD TO CART</a> -->
                         @if ($product->track_qty == 'Yes')
                             @if ($product->qty > 0)
                                 <a class="btn btn-dark" href="javascript:void(0)" onclick="addToCart({{ $product->id }});">
@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="col-md-12 mt-5">
-                    <div class="bg-light">
+                    <div class="bg-white">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="description-tab" data-bs-toggle="tab"

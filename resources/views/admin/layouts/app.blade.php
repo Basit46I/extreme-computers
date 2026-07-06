@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Panel E:C</title>
+    <title>Business Network</title>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -57,13 +57,13 @@
                         <h4 class="h4 mb-0"><strong>{{ Auth::guard('admin')->user()->name }}</strong></h4>
                         <div class="mb-3">{{ Auth::guard('admin')->user()->email }}</div>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
+                        <!-- <a href="#" class="dropdown-item">
                             <i class="fas fa-user-cog mr-2"></i> Settings
                         </a>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
                             <i class="fas fa-lock mr-2"></i> Change Password
-                        </a>
+                        </a> -->
                         <div class="dropdown-divider"></div>
                         <a href="{{ route('admin.logout') }}" class="dropdown-item text-danger">
                             <i class="fas fa-sign-out-alt mr-2"></i> Logout
@@ -86,7 +86,7 @@
         <!-- /.content-wrapper -->
         <footer class="main-footer">
 
-            <strong>Copyright &copy; 2023-2024 Extreme Computers All rights reserved.
+            <strong>Copyright &copy; {{ date('Y') }} Business Network All rights reserved.
         </footer>
 
     </div>

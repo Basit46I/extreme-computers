@@ -42,7 +42,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="mb-3">
+                                        <div class="mb-3">  
                                             <label for="description">Short Description</label>
                                             <textarea name="short_description" id="short_description" cols="50" rows="20" class="summernote">{{ $product->short_description }}</textarea>
                                         </div>
@@ -62,7 +62,6 @@
                                                 placeholder="Description">{{ $product->shipping_returns }}</textarea>
                                         </div>
                                     </div>
-
 
                                 </div>
                             </div>
